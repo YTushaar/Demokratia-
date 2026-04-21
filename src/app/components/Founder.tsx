@@ -3,7 +3,7 @@ export default function Founder() {
     <section className="py-24 bg-zinc-950 relative" id="founder">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center gap-12 bg-zinc-900/50 rounded-3xl p-8 md:p-12 border border-white/5 relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-[80px]"></div>
+          <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-[80px]"></div>
           
           <div className="w-full md:w-1/3 relative z-10">
             <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white/10 shadow-2xl">
@@ -16,7 +16,7 @@ export default function Founder() {
           </div>
           
           <div className="w-full md:w-2/3 relative z-10">
-            <div className="inline-block px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-sm font-semibold mb-4">
+            <div className="inline-block px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm font-semibold mb-4">
               Founder's Vision
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Empowering the Next Generation of Leaders</h2>
@@ -25,7 +25,7 @@ export default function Founder() {
             </p>
             <div>
               <p className="font-bold text-white text-xl">Aarnav Cheekatamarla</p>
-              <p className="text-indigo-400 mb-2">Founder and Secretary General</p>
+              <p className="text-blue-400 mb-2">Founder and Secretary General</p>
               <a 
                 href="https://www.instagram.com/aarnav_669?igsh=ZjR2N3AzY3N4aHF1" 
                 target="_blank" 

@@ -4,6 +4,12 @@
   --color-background: #0a0a0a;
   --color-foreground: #ededed;
   
+  /* Custom Darker Royal Blue Scale */
+  --color-blue-400: #4169e1; /* Royal Blue */
+  --color-blue-500: #27408b; /* Dark Royal */
+  --color-blue-600: #1a2b5e; /* Deep Royal */
+  --color-blue-900: #0d1630; /* Very Dark Royal Navy */
+
   --animate-marquee: marquee 25s linear infinite;
 
   @keyframes marquee {

@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black selection:bg-indigo-500/30">
+    <main className="min-h-screen bg-black selection:bg-blue-500/30">
       <Hero />
       <EventDetails />
       <ChiefGuests />

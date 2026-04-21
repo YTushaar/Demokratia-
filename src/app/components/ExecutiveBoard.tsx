@@ -11,14 +11,14 @@ export default function ExecutiveBoard() {
     <section className="py-24 bg-zinc-950 relative" id="team">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Executive <span className="text-indigo-400">Board</span></h2>
-          <div className="h-1 w-20 bg-indigo-500 mx-auto rounded-full"></div>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Executive <span className="text-blue-400">Board</span></h2>
+          <div className="h-1 w-20 bg-blue-500 mx-auto rounded-full"></div>
         </div>
         
         <div className="flex flex-wrap justify-center gap-8">
           {TEAM.map((member, i) => (
-            <div key={i} className="w-full sm:w-[calc(50%-2rem)] md:w-[calc(33.333%-2rem)] max-w-sm flex flex-col items-center gap-6 p-8 rounded-3xl bg-zinc-900 border border-white/5 hover:border-indigo-500/50 hover:bg-white/5 transition-all group cursor-pointer">
-              <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-indigo-500/20 group-hover:border-indigo-500/50 transition-colors">
+            <div key={i} className="w-full sm:w-[calc(50%-2rem)] md:w-[calc(33.333%-2rem)] max-w-sm flex flex-col items-center gap-6 p-8 rounded-3xl bg-zinc-900 border border-white/5 hover:border-blue-500/50 hover:bg-white/5 transition-all group cursor-pointer">
+              <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500/20 group-hover:border-blue-500/50 transition-colors">
                 <img 
                   src={member.image} 
                   alt={member.name} 
@@ -27,7 +27,7 @@ export default function ExecutiveBoard() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-white mb-2">{member.name}</h3>
-                <p className="text-indigo-400 font-medium px-4 py-1.5 rounded-full bg-indigo-500/10 inline-block">{member.role}</p>
+                <p className="text-blue-400 font-medium px-4 py-1.5 rounded-full bg-blue-500/10 inline-block">{member.role}</p>
               </div>
             </div>
           ))}
