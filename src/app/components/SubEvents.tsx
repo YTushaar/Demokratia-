@@ -27,7 +27,7 @@ export default function SubEvents() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {EVENTS.map((evt, i) => (
-            <div key={i} className="relative group p-8 rounded-3xl bg-zinc-900 border border-white/5 overflow-hidden hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] transition-all">
+            <div key={i} className="relative group p-8 rounded-3xl bg-zinc-900 border border-white/5 overflow-hidden hover:shadow-[0_0_40px_rgba(65,105,225,0.2)] hover:scale-105 hover:border-blue-500/30 transition-all duration-300">
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-[40px] group-hover:bg-blue-500/20 transition-all"></div>
               <div className="text-4xl mb-6 relative z-10">{evt.icon}</div>
               <h3 className="text-2xl font-bold text-white mb-3 relative z-10">{evt.title}</h3>

@@ -16,7 +16,7 @@ export default function Perks() {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {PERKS.map((perk, i) => (
-            <div key={i} className="p-6 rounded-2xl bg-gradient-to-br from-zinc-900 to-black border border-white/10 hover:border-blue-500/30 transition-colors group">
+            <div key={i} className="p-6 rounded-2xl bg-gradient-to-br from-zinc-900 to-black border border-white/10 hover:border-blue-500/40 hover:scale-105 hover:shadow-[0_0_30px_rgba(65,105,225,0.1)] transition-all duration-300 group">
               <div className="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <div className="w-4 h-4 bg-blue-500 rounded-full"></div>
               </div>

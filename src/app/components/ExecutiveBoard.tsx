@@ -17,7 +17,7 @@ export default function ExecutiveBoard() {
         
         <div className="flex flex-wrap justify-center gap-8">
           {TEAM.map((member, i) => (
-            <div key={i} className="w-full sm:w-[calc(50%-2rem)] md:w-[calc(33.333%-2rem)] max-w-sm flex flex-col items-center gap-6 p-8 rounded-3xl bg-zinc-900 border border-white/5 hover:border-blue-500/50 hover:bg-white/5 transition-all group cursor-pointer">
+            <div key={i} className="w-full sm:w-[calc(50%-2rem)] md:w-[calc(33.333%-2rem)] max-w-sm flex flex-col items-center gap-6 p-8 rounded-3xl bg-zinc-900 border border-white/5 hover:border-blue-500/40 hover:bg-white/5 hover:scale-105 hover:shadow-[0_0_40px_rgba(65,105,225,0.15)] transition-all duration-300 group cursor-pointer">
               <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500/20 group-hover:border-blue-500/50 transition-colors">
                 <img 
                   src={member.image} 
