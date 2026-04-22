@@ -6,11 +6,11 @@ export default function Founder() {
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-[80px]"></div>
           
           <div className="w-full md:w-1/3 relative z-10">
-            <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white/10 shadow-2xl">
+            <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white/10 shadow-2xl group">
               <img 
-                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80" 
-                alt="Founder" 
-                className="w-full h-full object-cover"
+                src="/team/Aarnav-founder.jpeg" 
+                alt="Aarnav Cheekatamarla" 
+                className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-700"
               />
             </div>
           </div>
