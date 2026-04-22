@@ -1,16 +1,16 @@
 const EVENTS = [
   {
-    title: "AIPPM",
+    title: "DYP AIPPM",
     desc: "A committee that simulates a national-level discussion among Indian political parties, focusing on pressing domestic issues. Unlike conventional MUNs, delegates represent specific Indian politicians (MPs/leaders), adopting their views to debate agendas like economic policy, security, or social reforms.",
     icon: "🎙️"
   },
   {
-    title: "Lok Sabha",
+    title: "DYP Lok Sabha",
     desc: "The Lok Sabha serves as the pivotal legislative and representative body of India, exercising primary authority over national governance and finance. Its core functions include law-making, where it debates and passes bills on subjects in the Union and Concurrent Lists, and financial control, as it holds the exclusive power to initiate \"Money Bills\" and approve the Union Budget. Crucially, the Lok Sabha ensures executive accountability.",
     icon: "🏛️"
   },
   {
-    title: "National Press",
+    title: "DYP National Press",
     desc: "The National Press Committee serves as the media backbone of our Youth Parliament, immersing participants in the dynamic role of journalists, photographers, and editorial cartoonists. Delegates observe and report on deliberations across all committees, including Lok Sabha, Rajya Sabha, and specialized working groups, capturing key debates, policy positions, and pivotal moments.",
     icon: "📰"
   }

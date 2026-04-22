@@ -11,8 +11,8 @@ export default function Footer() {
         <p className="text-gray-600 text-sm mb-2">
           &copy; {new Date().getFullYear()} Demokratia Youth Parliament. All rights reserved.
         </p>
-        <p className="text-gray-500 text-xs">
-          Website built by <a href="https://github.com/YTushaar" target="_blank" rel="noopener noreferrer" className="text-blue-400/60 hover:text-blue-400 transition-colors">Y.Tushaar</a> • <a href="https://linkedin.com/in/tushaar-yenduri-6b10a822b" target="_blank" rel="noopener noreferrer" className="text-blue-400/60 hover:text-blue-400 transition-colors">LinkedIn</a>
+        <p className="text-gray-500 text-sm font-semibold">
+          Website built by <a href="https://github.com/YTushaar" target="_blank" rel="noopener noreferrer" className="text-blue-400/80 hover:text-blue-400 transition-colors">Y.Tushaar</a> • <a href="https://linkedin.com/in/tushaar-yenduri-6b10a822b" target="_blank" rel="noopener noreferrer" className="text-blue-400/80 hover:text-blue-400 transition-colors">LinkedIn</a>
         </p>
       </div>
     </footer>
