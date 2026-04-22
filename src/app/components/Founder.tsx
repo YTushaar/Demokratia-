@@ -25,7 +25,7 @@ export default function Founder() {
             </p>
             <div>
               <p className="font-bold text-white text-xl">Aarnav Cheekatamarla</p>
-              <p className="text-blue-400 mb-2">Founder and Secretary General</p>
+              <p className="text-blue-400 mb-2">DYP Founder and Secretary General</p>
               <a 
                 href="https://www.instagram.com/aarnav_669?igsh=ZjR2N3AzY3N4aHF1" 
                 target="_blank" 

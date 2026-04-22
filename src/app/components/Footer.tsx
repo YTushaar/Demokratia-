@@ -8,8 +8,11 @@ export default function Footer() {
           <a href="#" className="text-gray-400 hover:text-white transition-colors">LinkedIn</a>
           <a href="#" className="text-gray-400 hover:text-white transition-colors">Twitter</a>
         </div>
-        <p className="text-gray-600 text-sm">
+        <p className="text-gray-600 text-sm mb-2">
           &copy; {new Date().getFullYear()} Demokratia Youth Parliament. All rights reserved.
+        </p>
+        <p className="text-gray-500 text-xs">
+          Website built by <a href="https://github.com/YTushaar" target="_blank" rel="noopener noreferrer" className="text-blue-400/60 hover:text-blue-400 transition-colors">Y.Tushaar</a> • <a href="https://linkedin.com/in/tushaar-yenduri-6b10a822b" target="_blank" rel="noopener noreferrer" className="text-blue-400/60 hover:text-blue-400 transition-colors">LinkedIn</a>
         </p>
       </div>
     </footer>

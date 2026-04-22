@@ -1,9 +1,9 @@
 const TEAM = [
-  { name: "Sangras Bhargav", role: "Chair AIPPM", image: "/team/Sangras Bhargav-Chair AIPPM.jpeg" },
-  { name: "PVS Deepak", role: "Vice Chair AIPPM", image: "/team/PVS Deepak-Vice Chair AIPPM.jpeg" },
-  { name: "Bilal Quadri", role: "Speaker Lok Sabha", image: "/team/Bilal Quadri-Speaker Lok Sanha.jpeg" },
-  { name: "Sidha Sankalp", role: "Deputy Speaker Lok Sabha", image: "/team/Sidha Sankalp - Deputy Speaker Lok Sabha.jpeg" },
-  { name: "Akshitha", role: "Rapporteur AIPPM", image: "/team/Akshitha-Rapporteur-AIPPM.jpeg" },
+  { name: "Sangras Bhargav", role: "DYP Chair AIPPM", image: "/team/Sangras Bhargav-Chair AIPPM.jpeg" },
+  { name: "PVS Deepak", role: "DYP Vice Chair AIPPM", image: "/team/PVS Deepak-Vice Chair AIPPM.jpeg" },
+  { name: "Bilal Quadri", role: "DYP Speaker Lok Sabha", image: "/team/Bilal Quadri-Speaker Lok Sanha.jpeg" },
+  { name: "Sidha Sankalp", role: "DYP Deputy Speaker Lok Sabha", image: "/team/Sidha Sankalp - Deputy Speaker Lok Sabha.jpeg" },
+  { name: "Akshitha", role: "DYP Rapporteur AIPPM", image: "/team/Akshitha-Rapporteur-AIPPM.jpeg" },
 ];
 
 export default function ExecutiveBoard() {
