@@ -4,7 +4,8 @@ const GUESTS = [
   { name: "Ramchander Rao", designation: "President, BJP Telangana State unit", intro: "President of the Bharatiya Janata Party, Telangana State unit.", image: "/team/Ramchander Rao-President,BJP Telangana State unit.jpeg" },
   { name: "Sambit Patra", designation: "MP and National Spokesperson", intro: "Member of Parliament and National Spokesperson of the Bharatiya Janata Party.", image: "/team/Sambit Patra MP and national spokesperson.jpeg" },
   { name: "Sri Ram Karri", designation: "Director of Media and Communications", intro: "Director of Media and Communications, Telangana Government.", image: "/team/Sri ram karri - director of media and communications telangana govt.jpeg" },
-  { name: "Rahul Saridena", designation: "BJP State Spokesperson", intro: "State Spokesperson for the Bharatiya Janata Party.", image: "/team/Rahul Saridena - BJP State Spokesperson.jpeg" }
+  { name: "Rahul Saridena", designation: "BJP State Spokesperson", intro: "State Spokesperson for the Bharatiya Janata Party.", image: "/team/Rahul Saridena - BJP State Spokesperson.jpeg" },
+  { name: "Ramani Varanasi", designation: "Principal, Akshara International School", intro: "Principal of Akshara International School, holds an MA in English Literature.", image: "/team/Ramani varnasi Principal Akshara International School MA English Literature.jpeg" }
 ];
 
 export default function ChiefGuests() {
