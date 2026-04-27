@@ -2,11 +2,11 @@ export default function Founder() {
   return (
     <section className="py-24 bg-zinc-950 relative" id="founder">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center gap-12 bg-zinc-900/50 rounded-3xl p-8 md:p-12 border border-white/5 relative overflow-hidden">
+        <div className="flex flex-col md:flex-row items-center gap-12 bg-zinc-900/50 rounded-3xl p-8 md:p-12 border border-white/5 relative overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:border-blue-500/30">
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-[80px]"></div>
           
-          <div className="w-full md:w-1/3 relative z-10">
-            <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white/10 shadow-2xl group">
+          <div className="w-full md:w-1/3 relative z-10 flex justify-center md:block">
+            <div className="aspect-square w-full max-w-[280px] md:max-w-none rounded-2xl overflow-hidden border-4 border-white/10 shadow-2xl group">
               <img 
                 src="/team/Aarnav-founder.jpeg" 
                 alt="Aarnav Cheekatamarla" 
@@ -14,15 +14,18 @@ export default function Founder() {
               />
             </div>
           </div>
+
           
           <div className="w-full md:w-2/3 relative z-10">
             <div className="inline-block px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm font-semibold mb-4">
-              Founder's Vision
+              Founder&apos;s Vision
             </div>
+
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Empowering the Next Generation of Leaders</h2>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              "We started Demokratia Youth Parliament with a simple belief: young people have the power to change the world. By providing a platform for debate, diplomacy, and collaboration, we aim to nurture the skills necessary to tackle tomorrow's global challenges."
+              &quot;We started Demokratia Youth Parliament with a simple belief: young people have the power to change the world. By providing a platform for debate, diplomacy, and collaboration, we aim to nurture the skills necessary to tackle tomorrow&apos;s global challenges.&quot;
             </p>
+
             <div>
               <p className="font-bold text-white text-xl">Aarnav Cheekatamarla</p>
               <p className="text-blue-400 mb-2">DYP Founder and Secretary General</p>

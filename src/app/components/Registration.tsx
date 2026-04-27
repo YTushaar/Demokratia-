@@ -4,7 +4,7 @@ export default function Registration() {
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03]"></div>
       
       {/* Decorative Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
@@ -20,7 +20,7 @@ export default function Registration() {
           {/* Form border glow effect */}
           <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-[2.5rem] blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
           
-          <div className="relative bg-zinc-900/90 rounded-[2rem] p-1 border border-white/10 shadow-2xl overflow-hidden h-[800px] w-full backdrop-blur-xl">
+          <div className="relative bg-zinc-900/90 rounded-[2rem] p-1 border border-white/10 shadow-2xl overflow-hidden min-h-[600px] h-[80vh] md:h-[800px] w-full backdrop-blur-xl">
             <iframe 
               src="https://forms.fillout.com/t/79X1cph98Xus" 
               width="100%" 
@@ -34,3 +34,4 @@ export default function Registration() {
     </section>
   );
 }
+

@@ -6,7 +6,7 @@ const EVENTS = [
   },
   {
     title: "DYP Lok Sabha",
-    desc: "The Lok Sabha serves as the pivotal legislative and representative body of India, exercising primary authority over national governance and finance. Its core functions include law-making, where it debates and passes bills on subjects in the Union and Concurrent Lists, and financial control, as it holds the exclusive power to initiate \"Money Bills\" and approve the Union Budget. Crucially, the Lok Sabha ensures executive accountability.",
+    desc: "The Lok Sabha serves as the pivotal legislative and representative body of India, exercising primary authority over national governance and finance. Its core functions include law-making, where it debates and passes bills on subjects in the Union and Concurrent Lists, and financial control, as it holds the exclusive power to initiate &quot;Money Bills&quot; and approve the Union Budget. Crucially, the Lok Sabha ensures executive accountability.",
     icon: "🏛️"
   },
   {
@@ -15,6 +15,7 @@ const EVENTS = [
     icon: "📰"
   }
 ];
+
 
 export default function SubEvents() {
   return (

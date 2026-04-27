@@ -11,12 +11,13 @@
   --color-blue-900: #0d1630; /* Very Dark Royal Navy */
 
   --animate-marquee: marquee 25s linear infinite;
-
-  @keyframes marquee {
-    0% { transform: translateX(0%); }
-    100% { transform: translateX(calc(-50% - 0.75rem)); }
-  }
 }
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(calc(-50% - 0.75rem)); }
+}
+
 
 @layer base {
   :root {
@@ -24,6 +25,10 @@
     --foreground: #ededed;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     color: var(--foreground);
     background: var(--background);
@@ -31,7 +36,14 @@
     cursor: auto !important;
   }
   
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+
   a, button, [role="button"], .cursor-pointer {
     cursor: pointer !important;
   }
 }
+
+
+
