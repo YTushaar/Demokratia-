@@ -4,7 +4,10 @@ const TEAM = [
   { name: "Bilal Quadri", role: "DYP Speaker Lok Sabha", image: "/team/Bilal Quadri-Speaker Lok Sanha.jpeg" },
   { name: "Sidha Sankalp", role: "DYP Deputy Speaker Lok Sabha", image: "/team/Sidha Sankalp - Deputy Speaker Lok Sabha.jpeg" },
   { name: "Akshitha", role: "DYP Rapporteur AIPPM", image: "/team/Akshitha-Rapporteur-AIPPM.jpeg" },
+  { name: "Ishitha", role: "DYP National Press Head", image: "/team/Ishitha dyp national press head.jpeg" },
+  { name: "Gur Simran Kaur", role: "DYP Editor in Chief", image: "/team/Gur simran kaur, editor in chief.jpeg" },
 ];
+
 
 export default function ExecutiveBoard() {
   return (
