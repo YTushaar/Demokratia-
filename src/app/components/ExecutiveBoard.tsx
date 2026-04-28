@@ -6,6 +6,7 @@ const TEAM = [
   { name: "Akshitha", role: "DYP Rapporteur AIPPM", image: "/team/Akshitha-Rapporteur-AIPPM.jpeg" },
   { name: "Ishitha", role: "DYP National Press Head", image: "/team/Ishitha dyp national press head.jpeg" },
   { name: "Gur Simran Kaur", role: "DYP Editor in Chief", image: "/team/Gur simran kaur, editor in chief.jpeg" },
+  { name: "Nishika", role: "DYP Scribe", image: "/team/Nishika-Scribe.jpeg" },
 ];
 
 
