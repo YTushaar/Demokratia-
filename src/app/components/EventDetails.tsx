@@ -69,14 +69,15 @@ export default function EventDetails() {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-white mb-3">Overview</h3>
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">
               2 Days of intensive debate, diplomatic negotiations, and leadership excellence.
             </p>
-            <div className="mt-auto pt-8 flex gap-2">
-              <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-gray-400 uppercase tracking-widest">Debate</span>
-              <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-gray-400 uppercase tracking-widest">Policy</span>
-              <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-gray-400 uppercase tracking-widest">Impact</span>
-            </div>
+            <a 
+              href="mailto:Demokratia.official@gmail.com"
+              className="mt-auto text-blue-400 hover:text-blue-300 font-medium transition-colors flex items-center gap-2"
+            >
+              Reach out to us at: Demokratia.official@gmail.com
+            </a>
           </div>
         </div>
       </div>
