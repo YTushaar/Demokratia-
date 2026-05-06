@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function Registration() {
-  const [activeTab, setActiveTab] = useState<'delegate' | 'observer'>('delegate');
+  const [activeTab, setActiveTab] = useState<'delegate' | 'audience'>('delegate');
 
   return (
     <section className="py-24 bg-black relative overflow-hidden" id="register">
@@ -44,9 +44,9 @@ export default function Registration() {
               Delegate
             </button>
             <button
-              onClick={() => setActiveTab('observer')}
+              onClick={() => setActiveTab('audience')}
               className={`flex items-center gap-2 px-8 py-4 rounded-xl font-bold transition-all duration-500 ${
-                activeTab === 'observer'
+                activeTab === 'audience'
                   ? 'bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-[0_0_20px_rgba(245,158,11,0.3)] scale-105'
                   : 'text-gray-500 hover:text-gray-300 hover:bg-white/5'
               }`}
@@ -55,7 +55,7 @@ export default function Registration() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
-              Observer
+              Audience
             </button>
           </div>
         </div>
@@ -130,14 +130,14 @@ export default function Registration() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                       </svg>
                     </div>
-                    <h4 className="text-xl font-bold text-white mb-2">Observation Access</h4>
+                    <h4 className="text-xl font-bold text-white mb-2">Audience Access</h4>
                     <p className="text-gray-500 px-8">Secure your seat to witness the proceedings of the DYP.</p>
                   </div>
                 </div>
 
                 <div className="space-y-6 order-1 md:order-2">
                   <h3 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                    Join as an <span className="text-amber-400">Observer</span>
+                    Join as <span className="text-amber-400">Audience</span>
                   </h3>
                   <p className="text-gray-400 text-lg leading-relaxed">
                     Witness the power of diplomacy and the art of leadership from the front row. Perfect for those who want to experience the intensity of debate without active participation.
@@ -145,7 +145,7 @@ export default function Registration() {
                   <ul className="space-y-4">
                     {[
                       'Access to all committee sessions',
-                      'Observer certificate',
+                      'Audience certificate',
                       'Insight into parliamentary procedure',
                       'Participation in guest lectures'
                     ].map((item, i) => (
